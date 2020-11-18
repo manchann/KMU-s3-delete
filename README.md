@@ -12,14 +12,15 @@ asw configure
 ```shell script
 source task.sh
 ```
+local 폴더에 s3_bucket_list.txt라는 파일이 생길 것입니다. s3 버킷 이름에 대한 리스트가 저장되어 있고 task.sh는 이 정보를 파싱하여 작업을 합니다.
 
 modified time이 오래된 순서대로 보려면 command line에 old를 입력하고 그렇지 않을것이라면 old를 제외한 키를 입력합니다.
 
-<img src="../assets/bucket_name.png" />
+<img src="../blob/assets/bucket_name.png" />
 
 버킷 이름과 오브젝트의 이름들, 총 개수와, 총 사이즈를 확인합니다.
 
-<img src="../assets/remove_bucket" />
+<img src="../blob/assets/remove_bucket" />
 버킷을 삭제하기 위해 command line에 yes를 입력하고 삭제 메세지를 확인합니다.
 
 삭제하지 않으려면 yes를 제외한 다른 문자를 입력합니다
