@@ -8,6 +8,11 @@ AWS CLI를 사용하기 위해 다음과 같는 명령어를 사용하여 계정
 asw configure
 ```
 
+실행 파일의 권한을 변경합니다.
+```shell script
+sudo chmod +x task.sh
+```
+
 작업을 시작하기 위해 명령어를 입력합니다.
 ```shell script
 source task.sh
